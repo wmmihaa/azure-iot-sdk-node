@@ -5,5 +5,10 @@
 
 node_root=$(cd "$(dirname "$0")/.." && pwd)
 
+echo "\n-- Removing links for build tools --
+cd $node_root/build/tools
+npm rm azure-iothub
+
+echo "\n-- tearing down node_modules --"
 pushd $node_root/build/tools
 node build_parallel.js teardown
