@@ -10,5 +10,5 @@ cd $node_root/build/tools
 npm rm azure-iothub
 
 echo "\n-- tearing down node_modules --"
-pushd $node_root/build/tools
+pushd $node_root/build/build_parallel
 node build_parallel.js teardown

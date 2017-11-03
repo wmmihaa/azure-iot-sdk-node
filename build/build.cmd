@@ -53,7 +53,7 @@ rem ---------------------------------------------------------------------------
 rem -- lint and run tests
 rem ---------------------------------------------------------------------------
 
-pushd  "%node-root%\build\tools"
+pushd  "%node-root%\build\build_parallel"
 echo.
 if %integration-tests%==0 (
   echo -- Linting and running unit tests --

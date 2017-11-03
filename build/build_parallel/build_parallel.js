@@ -30,7 +30,6 @@ if (!task) {
   process.exit(1);
 }
 
-console.log('dirname is ' + __dirname);
 var gitRoot = findRoot(__dirname, function (dir) {
   return fs.existsSync(path.resolve(dir, '.gitattributes'));
 });

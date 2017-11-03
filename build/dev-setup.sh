@@ -6,7 +6,7 @@
 node_root=$(cd "$(dirname "$0")/.." && pwd)
 
 echo "\n-- Setting up build_parallel tool --"
-cd $node_root/build/tools
+cd $node_root/build/build_parallel
 npm install
 
 echo "\n-- setting up node_modules --"
