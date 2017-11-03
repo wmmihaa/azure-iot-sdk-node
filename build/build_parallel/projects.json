@@ -41,6 +41,9 @@
       "directory": "provisioning/device"
     },
     {
+      "directory": "provisioning/service"
+    },
+    {
       "directory": "provisioning/transport/amqp"
     },
     {
